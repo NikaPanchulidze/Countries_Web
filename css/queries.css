@@ -1,0 +1,259 @@
+@media (max-width: 93em) {
+  .country img {
+    height: 18rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 83em) {
+  .country {
+    padding-bottom: 0;
+  }
+
+  .countries {
+    gap: 6.2rem;
+  }
+
+  .heading-secondary{
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 5rem 0;
+  }
+}
+
+@media (max-width: 68em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .country img {
+    height: 15rem;
+    width: 100%;
+  }
+
+  .details {
+    gap: 2rem;
+  }
+
+  .heading-tertiary {
+    font-size: 4.2rem;
+  }
+  
+  .heading-secondary{
+    font-size: 1.8rem;
+  }
+
+  .country div p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 56em) {
+  .countries {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+
+    justify-items: center;
+  }
+
+  .country div {
+    padding: 2rem 1rem 2rem 2rem;
+  }
+
+  .country {
+    width: 24rem;
+  }
+
+  #country-name{
+    padding: 2rem 18.8rem 2rem 1.2rem;
+  }
+
+  .country img {
+    height: 14rem;
+    width: 100%;
+  }
+
+  /* #select-where {
+    padding: 0 3.2rem 0 1.2rem;
+    border: none;
+    font-weight: 500;
+  } */
+  
+}
+
+@media (max-width: 45em) {
+  html {
+    font-size: 50%;
+  }
+
+  .countries {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 6rem;
+  }
+
+  .country {
+    width: 28rem;
+  }
+
+  .country img {
+    height: 18rem;
+    width: 100%;
+  }
+
+  .heading-secondary{
+    font-size: 2.2rem;
+  }
+  
+  .country div p {
+    font-size: 1.6rem;
+    margin-bottom: 1.1rem;
+  }
+  .country div {
+    margin-bottom: 2rem;
+  }
+
+  .details p {
+    font-size: 1.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 3.4rem;
+  }
+
+  .grid {
+    gap: 4rem;
+  }
+
+  .grid img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 37.5em){
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid img {
+    height: 25rem;
+    width: 40rem;
+
+    justify-self: center;
+  }
+
+  .details {
+    flex-direction: column;
+  }
+
+  .details p {
+    font-size: 2rem;
+  }
+
+  .heading-tertiary {
+    font-size: 4rem;
+  }
+
+  .mode-switch {
+    font-size: 2rem;
+  }
+
+  #country-name{
+    padding: 2rem 16.8rem 2rem 1.2rem;
+  }
+}
+
+@media (max-width: 32.75em) {
+  #country-name{
+    padding: 2rem 8.8rem 2rem 1.2rem;
+  }
+}
+
+@media (max-width: 30.75em) {
+  .countries {
+    grid-template-columns: 1fr;
+  }
+
+  .country img {
+    height: 23rem;
+    width: 100%;
+  }
+
+  .country {
+    width: 34rem;
+  }
+
+  .heading-secondary{
+    font-size: 2.4rem;
+  }
+  
+  .country div p {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  #select-where{
+    padding: 0 2.8rem 0 0.8rem;
+  }
+
+  #country-name{
+    padding: 2rem 6.8rem 2rem 1.2rem;
+  }
+}
+
+@media (max-width: 27.5em) {
+  .heading-primary{
+    font-size: 2.6rem;
+  }
+
+  .form {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  #select-where{
+    padding: 2rem 2.4rem 2rem 0.8rem;
+    width: 24rem;
+  }
+
+  #country-name{
+    padding: 2rem 4.8rem 2rem 1.2rem;
+  }
+
+  .mode-switch {
+    font-size: 1.6rem;
+  }
+
+  .border-coutries{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .border-coutries--name{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .container {
+    padding: 4rem 0;
+  }
+}
+
+@media (max-width: 21.87em) {
+  .grid img {
+    height: 22rem;
+    width: 36rem;
+  }
+
+  .heading-primary{
+    font-size: 2.2rem;
+  }
+
+  .container {
+    padding: 3rem 0;
+  }
+}

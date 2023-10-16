@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/queries.css" />
+
+  <script defer type="module" src="js/controller.js"></script>
+  <title>Countries</title>
+</head>
+<body class="1">
+  <header class="header 1">
+    <div class="container-header">
+      <h1 class="heading-primary">Where in the world?</h1>
+      <button class="mode-switch">🌙 Dark mode</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-form">
+      <div class="container">
+        <form class="form">
+          <div class="search-country 1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-search">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>    
+            <input
+              id="country-name"
+              class="input 1"
+              value=""
+              type="text"
+              placeholder="Search for a country..."
+            />
+          </div>
+          <select id="select-where" class="select 1">
+            <option value="" selected>Filter by region</option>
+            <option value="africa">Africa</option>
+            <option value="americas">America</option>
+            <option value="asia">Asia</option>
+            <option value="europe">Europe</option>
+            <option value="oceania">Oceania</option>
+          </select>
+        </form>
+      </div>
+    </section>
+  
+    <section class="section-countries">
+      <div class="container">
+        <div class="countries 1">
+          <!-- <div class="country">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/255px-Flag_of_Georgia.svg.png" alt="flag"/>
+            <div>
+              <h2 class="heading-secondary name">Georgia</h2>
+              <p class="population"><span class="bold">Population:</span>3,700,000</p>
+              <p class="region"><span class="bold">Region:</span>Europe</p>
+              <p class="capital"><span class="bold">Capital:</span>Tbilisi</p>
+            </div>
+          </div> -->
+        </div>
+        <div class="country-details hidden">
+          <button class="btn-back 1">⬅️ Back</button>
+          <div class="grid">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/255px-Flag_of_Georgia.svg.png" alt="flag" class="img--detail" />
+            <div class="column-second">
+              <h3 class="heading-tertiary">Name</h3>
+              <div class="details">
+                <div class="first-half">
+                  <p><span class="bold">Native Name:</span><span class="native-name--detail">3,700,000</span></p>
+                  <p><span class="bold">Population:</span><span class="population--detail">700,000</span></p>
+                  <p><span class="bold">Region:</span><span class="region--detail">3,700,000</span></p>
+                  <p><span class="bold">Sub Region:</span><span class="sub-region--detail">3,700,000</span></p>
+                  <p><span class="bold">Capital:</span><span class="capital--detail">3,700,000</span></p>
+                </div>
+                <div class="second-half">
+                  <p><span class="bold">Top Level Domain:</span><span class="top-level-domain--detail">3,700,000</span></p>
+                  <p><span class="bold">Currencies:</span><span class="currencies--detail">12321</span></p>
+                  <p><span class="bold">Languages:</span><span class="languages--detail">3,700,000</span></p>
+                </div>
+              </div>
+              <div class="border-coutries">
+                <p class="bold">Border Countries:</p>
+                <div class="border-coutries--name">
+                  <span>Name</span>
+                  <span>Name</span>
+                  <span>Name</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button class="scroll-top hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-arrow">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
+      </svg>
+    </button>
+  </main>
+</body>
+</html>
